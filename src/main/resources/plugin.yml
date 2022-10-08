@@ -1,0 +1,12 @@
+name: SitPlugin
+version: '${version}'
+main: com.trytheitguy.sitplugin.SitPlugin
+api-version: 1.19
+description: Allows stairs and slabs to act as "chairs"
+commands:
+  sittoggle:
+    aliases:
+      - stoggle
+      - chairtoggle
+      - ctoggle
+    description: Toggles whether you can sit or not
